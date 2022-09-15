@@ -97,16 +97,19 @@ body{
 }
 
 .para{
-   background-image: url(/images/jio\ background\ images.jpg);
+   /* background-image: url(/images/jio\ background\ images.jpg); */
    width: 100%;
+   height: 70vh;
    /* margin: auto; */
   
 }
-/* .para #img2{
-    background: url(/images/jio\ background\ images.jpg);
-  
+.para img{
+   width: 100%;
+   height: 75vh;
+   position: absolute;
+  z-index: -9999;
 
-} */
+}
 .para .p1{
     color: white;
     margin-left: 8%;
@@ -346,8 +349,15 @@ border: 16px solid #F0EABE;
     .container .nav1 #nav1 .help i:nth-child(1){
         margin-left: 12px;
     }
+    .container .nav1 #nav1 .search{
+        width: 10px;
+    }
     .para{
         width: 100%;
+    }
+    .section2 .img2 img{
+        width: 20rem;
+        height: 20rem;
     }
 }
 @media screen and (max-width:900px) {
@@ -358,7 +368,11 @@ border: 16px solid #F0EABE;
 .para{
     width: 112%;
 }
-
+.section2 .img2 img{
+    width: 20rem;
+    height: 20rem;
+}
+}
  
  
  
@@ -372,11 +386,7 @@ border: 16px solid #F0EABE;
  
  
  
- 
- 
- 
- 
- 
+ /* { */
  
     /* .container{
         width: 101%;
@@ -402,31 +412,7 @@ border: 16px solid #F0EABE;
         height: 20rem;
     }
 } */
-/* @media screen and (max-width:1000px) {
-    .container{
-        width: 110%;
-    } 
-    .logos1{
-        display: flex;
-        flex-direction: column;
-    }
-    .para{
-        width: 107%;
-    }
-    .container .nav1 {
-        height: 15vh;
-    }
-    .container .nav1 .logo {
-        width: 77%;
-    }
-    .section2 .para3 .p1{
-        font-size: 30px;
-    }
-    .section2 .img2 img{
-        width: 20rem;
-        height: 20rem;
-    }
-}
+
 @media  screen and (max-width:900px) {
     .container{
         width: 110%;
@@ -447,4 +433,12 @@ border: 16px solid #F0EABE;
         width: 20rem;
         height: 20rem;
     }
-} */
+}
+.border{
+    font-size: x-large;
+    margin-left: 20%;
+    width: 100%;
+    height: 100%;
+    border: 0.5rem solid black;
+    
+}
